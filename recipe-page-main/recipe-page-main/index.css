@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'Young Serif';
+    src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:"outfitBase";
+    src: url('assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+}
+
+body {
+    background-color: #F3E5D8;
+    font-family: 'Young Serif';
+}
+
+.main{
+    display: block;
+    width: 50vw;
+    min-width: 425px;
+    margin: 10vh auto;
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+#omelette {
+    max-width: 100%;
+    max-height: auto;
+    border-radius: 30px;
+    min-width: 425px;
+}
+
+.title{
+    text-align: left;
+    font-size: 50px;
+    font-weight:normal;
+    padding: 10px 0px 0px 0px;
+}
+
+p {
+    font-family: "outfitBase";
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: normal;
+    color: hsl(14, 45%, 36%);
+}
+
+/* "Preparation time" box */
+
+.prepTime {
+    font-family: "outfitBase";
+    border-radius: 30px;
+    background-color: #fff7fc;
+}
+.prepTime h3 {
+    padding-top: 0px;
+    font-weight: bold;
+    font-size: 25px;
+    color: hsl(332, 51%, 32%);
+    padding: 20px 0px 0px 30px; /* top right bottom left */
+}
+.prepList{
+    padding: 0px 0px 20px 50px; /* top right bottom left */
+}
+.prepList li::marker {
+    list-style-type: disc;
+    color: hsl(332, 51%, 32%);
+}
+.prepList li {
+    padding: 0px 0px 10px 30px; /* top right bottom left */
+    font-size: 20px;
+}
+.prepLabel {
+    font-weight: 600;
+}
+
+/* "Ingredients" box */
+
+.ingredients {
+    font-family: "outfitBase";
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 25px;
+}
+
+.ingredients li::marker {
+    color:hsl(14, 45%, 36%);
+}
+.ingredients li {
+    padding: 0px 0px 10px 30px; /* top right bottom left */
+}
+
+/* "Instructions" box */
+
+.instructions {
+    font-family: "outfitBase";
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 25px;
+}
+.instructions li::marker {
+    color:hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+.instructions li {
+    padding: 0px 0px 10px 30px; /* top right bottom left */
+}
+.instructions .instructionHeads {
+    font-weight: 600;
+}
+
+/* "Nutrition" box */
+
+.nutritionTbl {
+    width: 100%;
+    font-family: "outfitBase";
+    font-size: 20px;
+    text-align: left;
+    border-collapse: collapse;
+}
+.nutritionTbl th, td {
+    width: 50%;
+    font-weight: 400;
+    padding-left: 50px;
+    border-bottom: 1px solid #000000;
+    padding-top: 20px;
+}
+
+.nutritionTbl td {
+    font-weight: 600;
+    color: hsl(14, 45%, 36%);
+}
