@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "figtree";
+    src: url("assets/fonts/Figtree-VariableFont_wght.ttf");
+}
+body {
+    background-color:hsl(47, 88%, 63%);
+    font-family: "figtree", Arial, sans-serif;
+    font-weight: 500;
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main {
+    border: solid 2.5px black;
+    width: 25vw;
+    min-width: 375px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 7.5px 7.5px 0px rgb(0, 0, 0); /* Offset: right,down,Blur,Spread, Color: */
+}
+
+.img {
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 5%;
+}
+.btn {
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    padding: 2% 7%;
+    font-weight: 800;
+    font-size: 16px;
+    background-color: hsl(47, 88%, 63%);
+}
+.btn:hover{
+    background-color: hsl(47, 88%, 74%);
+}
+.btn:active{
+    background-color: hsl(47, 96%, 50%);
+}
+
+h1 {
+    margin : 0%;
+}
+
+h1 a{
+    text-decoration: none;
+    color: black;
+}
+h1 a:hover {
+    cursor: pointer;
+    color: hsl(47, 88%, 63%);
+}
+.description{
+    color: hsl(0, 0%, 50%);
+    margin-bottom: 7.5%;
+}
+.author{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.author:hover {
+    cursor: pointer;
+    color:hsl(47, 88%, 63%)
+}
+
+.author img {
+    width: 25%;
+}
+.name {
+    font-weight: 800;
+}
+.attribution {
+    position: absolute;
+    bottom: 0%;
+}
