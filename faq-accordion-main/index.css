@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../assets/fonts/WorkSans-VariableFont_wght.ttf') format('truetype-variations');
+    font-weight: 100 900;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../assets/fonts/WorkSans-Italic-VariableFont_wght.ttf') format('truetype-variations');
+    font-weight: 100 900;
+    font-style: italic;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  background-color: hsl(275, 100%, 97%);
+  margin: 0;
+  color: hsl(292, 42%, 14%);
+}
+
+.BGcontainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 320px; 
+  background-image: url('../assets/images/background-pattern-desktop.svg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  z-index: -1;
+  min-width: 500px;
+}
+
+.faqCard {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 35px;
+  box-shadow: 0px 2px 4px rgba(1, 1, 1, 0.3);
+  width: calc(42% - 70px);
+  margin : 10rem auto;
+  min-width: 500px;
+  
+}
+
+.mobileBG {
+  display: none;
+}
+
+.header {
+  font-size: 3.7rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+
+
+.faq {
+  border-bottom: solid 1px hsl(292, 16%, 84%);
+
+}
+.faq summary {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  list-style: none;
+  cursor: pointer;
+  margin: 1.25rem 0;
+}
+
+.faq svg {
+  margin-left: auto;
+  
+}
+
+.faq p{
+  margin-bottom: 1rem;
+  color: hsl(292, 16%, 49%);
+  
+}
